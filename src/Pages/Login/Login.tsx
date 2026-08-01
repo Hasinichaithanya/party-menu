@@ -12,8 +12,21 @@ function Login() {
   });
   const [error, setError] = useState<string | null>(null);
 
+  const validateForm = () => {
+    if (!formData.email || !formData.password) {
+      setError("Please enter credentials");
+      return false;
+    }
+
+    return true;
+  };
+
   const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError("");
+    if (!validateForm()) {
+      return;
+    }
 
     try {
       const result = await fetch(
