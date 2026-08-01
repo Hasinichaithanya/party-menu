@@ -1,0 +1,74 @@
+.item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 350px;
+  background-color: var(--social-bg);
+  border-radius: 10px;
+  /* height: 400px; */
+  cursor: pointer;
+}
+.image-float {
+  position: relative;
+}
+.item-image {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px 10px 0 0;
+}
+.item-details {
+  text-align: left;
+  padding: 10px;
+}
+.item-category {
+  color: var(--orange-bg);
+  font-size: 10px;
+  font-weight: 400;
+}
+.item-name {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.item-description {
+  /* margin-top: 5px; */
+  /* color: white; */
+  text-align: left;
+  font-size: 12px;
+}
+
+.desc {
+  line-height: 1;
+}
+.remove-button {
+  width: calc(100% - 24px);
+  margin: 0 12px 12px;
+  padding: 7px;
+  border: 1px solid #b93145;
+  border-radius: 8px;
+  background: transparent;
+  color: #dd6675;
+  font-size: 11px;
+}
+
+.veg-badge,
+.non-veg-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 9px;
+  border-radius: 12px;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+}
+.veg-badge {
+  background: #3a9d58;
+}
+
+.non-veg-badge {
+  background: #c42f3f;
+}

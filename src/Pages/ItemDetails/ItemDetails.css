@@ -1,0 +1,140 @@
+.item-details-page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  color: var(--text);
+  text-align: left;
+}
+
+.item-details-actions,
+.item-details-buttons,
+.item-details-tags {
+  display: flex;
+  align-items: center;
+}
+
+.item-details-actions {
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.item-details-buttons {
+  gap: 10px;
+}
+
+.item-details-actions button,
+.item-details-empty button {
+  padding: 8px 13px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+}
+
+.item-details-actions .save-recipe-button {
+  border-color: var(--orange-bg);
+  background: var(--orange-bg);
+  color: white;
+  font-weight: 600;
+}
+
+.item-details-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.item-details-image {
+  width: 500px;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.item-details {
+  padding-top: 2px;
+}
+
+.item-details-tags {
+  gap: 8px;
+  margin-bottom: 13px;
+}
+
+.item-details-category,
+.item-details-veg {
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.item-details-category {
+  background: rgba(255, 102, 0, 0.18);
+  color: var(--orange-bg);
+  text-transform: capitalize;
+}
+
+.item-details-veg {
+  background: rgba(52, 168, 83, 0.16);
+  color: #58bd70;
+}
+
+.item-details-copy h1 {
+  margin: 0 0 6px;
+  color: var(--text-h);
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.item-details-servings {
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.item-details-description {
+  max-width: 560px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ingredients-panel {
+  margin-top: 32px;
+  padding: 24px 26px 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--social-bg);
+}
+
+.ingredients-panel h2 {
+  margin-bottom: 18px;
+  color: var(--text-h);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ingredients-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ingredients-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 13px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--bg);
+  font-size: 13px;
+}
+
+.ingredients-list li span {
+  color: var(--text);
+}
+
+.item-details-empty {
+  text-align: center;
+}

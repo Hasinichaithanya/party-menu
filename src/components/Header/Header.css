@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btns {
+  background-color: transparent;
+  /* color: rgb(104, 102, 102); */
+  border: #9ca3af 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header-logo {
+  text-align: left;
+}
+.menu-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
